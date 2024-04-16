@@ -2,7 +2,7 @@ param(
     [Parameter(Mandatory = $true, HelpMessage = "Enter TenantId")][String]$TenantId,
     [Parameter(Mandatory = $true, HelpMessage = "Enter Group's ObjectId")][String]$GroupId,
     [Parameter(Mandatory = $true, HelpMessage = "Enter User List Path")][String]$FilePath,
-    [Parameter(Mandatory = $true, HelpMessage = "Enter one of the following options: ObjectID, Email, useMailNickname")]
+    [Parameter(Mandatory = $true, HelpMessage = "Enter one of the following options: ObjectID, Email, MailNickname")]
     [ValidateSet("ObjectID", "Email", "MailNickname")]
     [String]$Option
 )
